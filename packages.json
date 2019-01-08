@@ -2314,5 +2314,32 @@
     ],
     "repo": "https://github.com/paf31/purescript-yargs.git",
     "version": "v4.0.0"
+  },
+  "servant-support": {
+    "dependencies": [
+      "console",
+      "prelude",
+      "either",
+      "argonaut-core",
+      "globals",
+      "foldable-traversable",
+      "nullable",
+      "web-dom",
+      "affjax",
+      "argonaut-generic-codecs"
+    ],
+    "repo": "https://github.com/eskimor/purescript-servant-support.git",
+    "version": "v9.0.1"
+  },
+  "argonaut-generic-codecs": {
+      "dependencies": [
+      "argonaut-core",
+      "arrays",
+      "generics",
+      "integers",
+      "partial"
+    ],
+    "repo": "https://github.com/eskimor/purescript-argonaut-generic-codecs.git",
+    "version": "v4.0.0"
   }
 }
